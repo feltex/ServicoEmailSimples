@@ -24,10 +24,10 @@ public class ServicoEmail implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws MessagingException {
-        enviaEmailService.enviar("usuario2.feltex@gmail.com", "FELTEX - Servico de Email",
+        enviaEmailService.enviar("usuario2.feltex@gmail.com", "FELTEX - Serviço de Email",
                 "Conteúdo do email aqui!");
 
-        enviaEmailService.enviarEmailComAnexo("usuario2.feltex@gmail.com", "FELTEX - Servico de Email. Anexo",
+        enviaEmailService.enviarEmailComAnexo("usuario2.feltex@gmail.com", "FELTEX - Serviço de Email. Anexo",
                 "Email com Anexo", "arquivos/basket.jpeg");
     }
 }
