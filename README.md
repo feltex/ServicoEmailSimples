@@ -1,7 +1,9 @@
 # Projeto de Envio de Email
 
 
- Projeto simples utilizando Spring Boot para enviar email utilizando contas do Gmail 
+ Projeto simples utilizando Spring Boot para enviar email utilizando contas do Gmail.
+ 
+ Vídeo: https://youtu.be/so3nq5NapHA
  
 
 ## Pré Requisitos
